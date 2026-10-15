@@ -13,7 +13,7 @@ const cors = require('cors');
 const videoRouter = require('./src/routes/videoCreator');
 
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174" , "leetcode-frontend-eta.vercel.app"];
 
 app.use(cors({
     origin(origin, callback) {
